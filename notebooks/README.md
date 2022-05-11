@@ -4,8 +4,8 @@ Read in order.
 
 ```
 1_inertia.ipynb
-2_Gravity.ipynb
-3_Collisions.ipynb
+2_gravity.ipynb
+3_collisions.ipynb
 ```
 
 To start, in a shell run:
