@@ -1,0 +1,11 @@
+name = "ProbIntuitivePhysics"
+uuid = "a57278a8-1b0c-4f50-a78a-04a84f39dda7"
+authors = ["Austin Garrett <Austin.Garrett@ibm.com>"]
+version = "0.1.0"
+
+[deps]
+Gen = "ea4f424c-a589-11e8-07c0-fd5c91b9da4a"
+Highlights = "eafb193a-b7ab-5a9e-9068-77385905fa72"
+IJulia = "7073ff75-c697-5162-941a-fcdaad2a7d2a"
+PyPlot = "d330b81b-6aea-500a-939a-2ce795aea3ee"
+Revise = "295af30f-e4ad-537b-8983-00126c2a3abe"
