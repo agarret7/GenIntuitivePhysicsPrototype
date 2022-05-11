@@ -10,5 +10,5 @@ Read in order.
 
 To start, in a shell run:
 ```shell
-julia --project -e "using Pkg; Pkg.instantiate(); using IJulia; notebook()
+julia --project -e "using Pkg; Pkg.instantiate(); using IJulia; notebook(dir=@__DIR__)
 ```
