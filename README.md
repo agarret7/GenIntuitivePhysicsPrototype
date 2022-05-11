@@ -10,7 +10,7 @@ This repository contains 3 notebooks in `./notebooks`:
 
 To run these notebooks, in shell run:
 ```shell
-julia --project -e "using Pkg; Pkg.instantiate(); using IJulia; notebook()
+julia --project -e "using Pkg; Pkg.instantiate(); using IJulia; notebook(dir = joinpath(@__DIR__, \"notebooks\"))"
 ```
 
 We leverage a random force dynamics model that integrates simple Newtonian physics with probabilistic modeling to derive physically plausible trajectories from final-state observations.
